@@ -1,0 +1,63 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; /* Dark Background Color */
+    color: #fff; /* Text Color */
+}
+
+header {
+    background-color: #3498db; /* Blue */
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 5px solid #2980b9; /* Darker Blue Border */
+}
+
+main {
+    padding: 2rem;
+}
+
+h1 {
+    color: red; /* Red color */
+    text-align: center;
+    font-size: 48px; /* Larger Font Size */
+    margin-bottom: 30px; /* Increased Margin */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text Shadow */
+}
+
+h2 {
+    color: #e74c3c; /* Red */
+    font-size: 32px; /* Larger Font Size */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px; /* Increased Font Size */
+    line-height: 1.8; /* Increased Line Height */
+}
+
+.media {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.media video, .media img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; /* Rounded Corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft Box Shadow */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333; /* Darker Footer Background */
+}
+
+footer p {
+    font-size: 16px; /* Increased Font Size */
+}
